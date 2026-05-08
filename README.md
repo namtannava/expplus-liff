@@ -56,7 +56,7 @@
             };
 
             // ส่งกลับไปยัง Google Apps Script (Web App URL)
-            await fetch('URL_ของ_APPS_SCRIPT_ที่_DEPLOY_แบบ_WEB_APP', {
+            await fetch('[URL_ของ_APPS_SCRIPT_ที่_DEPLOY_แบบ_WEB_APP](https://script.google.com/macros/s/AKfycbyWisypVYl6ozJF-vcwcr5ak2vLe7BK5kOto9pTEk1PguKvzoBh4oPqu5U-yyARTRpF/exec)', {
                 method: 'POST',
                 body: JSON.stringify(data)
             });
